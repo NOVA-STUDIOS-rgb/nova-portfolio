@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="720" height="200" viewBox="0 0 720 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00BCD4"/>
+      <stop offset="100%" stop-color="#00A2B8"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="200" fill="none"/>
+  <!-- Icon -->
+  <g transform="translate(20,20)">
+    <polygon points="80,0 160,80 80,160 0,80" fill="url(#g)"/>
+    <polygon points="160,80 160,20 100,0" fill="#00A2B8"/>
+    <!-- N -->
+    <rect x="32" y="32" width="16" height="96" rx="8" fill="#E9EEF6"/>
+    <rect x="112" y="32" width="16" height="96" rx="8" fill="#E9EEF6"/>
+    <path d="M48 32 L112 128" stroke="#E9EEF6" stroke-width="16" stroke-linecap="round"/>
+  </g>
+  <!-- Wordmark -->
+  <g font-family="Poppins, Arial, sans-serif" font-weight="700" fill="#E9EEF6">
+    <text x="210" y="95" font-size="48">NOVA <tspan font-weight="600">Studios</tspan></text>
+    <text x="210" y="140" font-size="18" fill="#A7B1C2">Desenvolvimento de Sites</text>
+  </g>
+</svg>
